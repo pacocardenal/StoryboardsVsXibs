@@ -21,5 +21,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func openXibVC(_ sender: UIButton) {
+        let vc = XibViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 

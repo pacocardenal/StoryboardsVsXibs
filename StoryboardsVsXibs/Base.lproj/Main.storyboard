@@ -45,6 +45,14 @@
                                     <segue destination="xqZ-DG-tCX" kind="show" id="zYB-GV-EBM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opf-9i-Pom">
+                                <rect key="frame" x="149" y="438" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Open a XIB"/>
+                                <connections>
+                                    <action selector="openXibVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WjW-O5-mg7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
